@@ -1,0 +1,99 @@
+ html {
+    /* padding: 0; */
+     margin: 0;
+ }
+ body {
+     box-sizing: border-box;
+     height: 100%;
+     position: relative;
+     margin: 0;
+     padding-bottom: 0;
+       font-family: 'B612', sans-serif; 
+    background-image: url("../download.webp");
+    background-size: cover;
+    background-position: right;
+}
+
+ /* Join section */
+ .join {
+    margin: 0 auto;
+    text-align: center;
+
+}
+.join__heading {
+    color:black;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.join__form {
+    margin: 0 auto; 
+    background-color: white;
+    padding: 0rem;
+    padding: 5rem;
+    width: 50%;
+}
+
+.join__form-input{
+    display: block;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 100%;
+    transition: all 0.1s;
+    border-radius: 2px;
+    border: none;
+    border-bottom:1px solid #719ECE;
+    
+}
+.join__form-input:focus{
+    outline: none;
+    border-bottom:3px darkblue solid;
+}
+.join{
+    height: 80vh;
+    margin-bottom: 1rem;
+}
+.join__form-container{
+    margin: 0 auto;
+    padding: 2rem;
+    width: 50%;
+}
+.join__form-submit{
+    width: 100%;
+    background-color: #3AD4AF;
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+
+.join__form-link:link,.join__form-link:visited{
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 0 0 5px #666;
+    height: 1.5rem;
+    text-decoration: none;
+    padding: 0.3rem;
+}
+@media screen and (max-width:750px) {
+    .join {
+        height: 80vh;
+    }
+    .join__form-container{
+        width: 80%;
+    
+    }
+    .join__form {
+        margin: 0 auto; 
+        width: 50%;
+        padding: 5rem;
+    }
+    .join__form-link{
+        font-size: 0.8rem;
+    }
+
+}
